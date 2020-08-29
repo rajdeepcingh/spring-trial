@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Initialize') {
             steps {                
-			echo "JAVA_HOME = ${JAVA_HOME}"
+		     echo "JAVA_HOME = ${JAVA_HOME}"
             }
         }
 
